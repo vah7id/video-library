@@ -191,5 +191,5 @@ This will clean all node_modules and reinstall everything.
 
 ### Data Management
 
-- **Pagination**: Implement proper pagination for large datasets
-- **Search Functionality**: Add full-text search with Elasticsearch or PostgreSQL full-text search
+- **Pagination**: Implement proper pagination for large datasets to improve performance
+- **Search Functionality**: Add full-text search 
