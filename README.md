@@ -109,11 +109,6 @@ This starts both frontend and backend servers concurrently.
 - `npm run test` - Run all tests
 - `npm run test:watch` - Run tests in watch mode
 
-### Linting
-
-- `npm run lint` - Run linting
-- `npm run lint:fix` - Fix linting issues
-
 ### Build
 
 - `npm run build` - Build for production
