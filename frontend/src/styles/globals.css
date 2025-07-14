@@ -1,0 +1,73 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+}
+
+
+/* React Select Custom Styles */
+.react-select-container .react-select__control {
+  @apply border-gray-300 rounded-md shadow-sm;
+}
+
+.react-select-container .react-select__control--is-focused {
+  @apply border-primary-500 ring-2 ring-primary-500 ring-opacity-50;
+}
+
+/* Hide the internal input field border and styling */
+.react-select-container .react-select__input-container {
+  @apply p-0 m-0;
+}
+
+.react-select-container .react-select__input {
+  @apply border-none shadow-none outline-none bg-transparent;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.react-select-container .react-select__input:focus {
+  @apply border-none shadow-none outline-none;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Ensure the value container has proper padding */
+.react-select-container .react-select__value-container {
+  @apply py-2 px-3;
+}
+
+/* Remove any default browser styling */
+.react-select-container .react-select__input input {
+  @apply border-none shadow-none outline-none bg-transparent;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.react-select-container .react-select__menu {
+  @apply border border-gray-200 rounded-md shadow-lg;
+}
+
+.react-select-container .react-select__option {
+  @apply cursor-pointer;
+}
+
+.react-select-container .react-select__option--is-focused {
+  @apply bg-gray-100;
+}
+
+.react-select-container .react-select__option--is-selected {
+  @apply bg-primary-600 text-white;
+}
