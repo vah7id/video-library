@@ -9,7 +9,7 @@ A full-stack video library application built with Next.js frontend and Node.js (
 - **Framework**: [Next.js 14](https://nextjs.org/) - React framework with App Router
 - **Language**: [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- **UI Components**: [Material-UI (MUI)](https://mui.com/) - React component library
+- **UI Components**: [Material-Tailwind](https://material-tailwind.com/) - React component library
 - **State Management**: [React Query (TanStack Query)](https://tanstack.com/query) - Server state management
 - **Form Handling**: [React Hook Form](https://react-hook-form.com/) - Performant forms with validation
 - **Form Components**: [React Select](https://react-select.com/) - Flexible select input component
