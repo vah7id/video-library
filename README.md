@@ -158,13 +158,14 @@ This will clean all node_modules and reinstall everything.
 - **Error Handling**: Implement centralized error handling with custom error classes and proper error codes
 - **Logging**: Add structured logging with Winston or Pino for better debugging and monitoring
 - **API Documentation**: Implement comprehensive API documentation using Swagger with interactive testing interface
-- **Monorepo**: Implement monorepo with nx for better code organization and dependency management and move shared types to a shared package
+- **Monorepo**: Implement monorepo with nx for better code organization and dependency management and move shared types to a shared package to have one single source of truth
+- **Database**: Add soft delete to the videos model (is_deleted: boolean)
 
 ### Testing & Quality Assurance
 
 - **Test Coverage**: Increase test coverage to >80% with unit, integration, and E2E tests
-- **Performance Testing**: Add load testing with tools like Artillery or k6
-- **Security Testing**: Implement security scanning with tools like Snyk or OWASP ZAP
+- **Performance Testing**: Add load testing with tools like Artillery 
+- **Security Testing**: Implement security scanning with tools like Snyk
 
 ### Performance & Optimization
 
