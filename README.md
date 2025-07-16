@@ -170,6 +170,7 @@ This will clean all node_modules and reinstall everything.
 ### Performance & Optimization
 
 - **Caching Strategy**: Implement Redis caching for frequently accessed data
+- **React Visualized**: Use react-visualized for efficiently rendering large list by rendering only visible parts
 - **CDN Integration**: Set up CDN for static assets and media files
 
 ### Security Enhancements
